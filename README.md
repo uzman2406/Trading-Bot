@@ -49,17 +49,17 @@ trading_bot/
 
 Market order:
 ```
-python cli.py place --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.01
 ```
 
 Limit order:
 ```
-python cli.py place --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 60000
+python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.01 --price 60000
 ```
 
 `--help` works on both the app and the command if you forget the flags:
 ```
-python cli.py place --help
+python cli.py --help
 ```
 
 ## Running - UI (bonus)
