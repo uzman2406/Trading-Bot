@@ -1,9 +1,3 @@
-"""
-Sets up a logger that writes to both the console and a log file.
-Every API request/response/error goes through this logger so we
-have a paper trail for the submitted log files.
-"""
-
 import logging
 import os
 
@@ -18,7 +12,6 @@ def setup_logger():
     logger.setLevel(logging.INFO)
 
     # avoid duplicate handlers if this gets called more than once
-    # (streamlit reruns the script on every interaction)
     if logger.handlers:
         return logger
 
