@@ -1,8 +1,3 @@
-"""
-Basic input validation, kept separate from the CLI/UI so both the
-Typer CLI and the Streamlit app can share the same rules.
-"""
-
 from decimal import Decimal, InvalidOperation
 
 VALID_SIDES = {"BUY", "SELL"}
