@@ -1,8 +1,3 @@
-"""
-Bonus: a small Streamlit UI on top of the same order logic used by
-the CLI. Run with: streamlit run streamlit_app.py
-"""
-
 import streamlit as st
 
 from bot.logging_config import setup_logger
