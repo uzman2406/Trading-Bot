@@ -1,9 +1,3 @@
-"""
-Actual order placement. This is where we talk to Binance.
-Keeping it separate from cli.py means the same function can be
-reused by the CLI, the Streamlit UI, or tests.
-"""
-
 import logging
 from binance.exceptions import BinanceAPIException, BinanceRequestException
 
